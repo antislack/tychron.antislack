@@ -1,13 +1,25 @@
+body,
+html {
+    background-image: url(/assets/images/pic01.jpg);
+    background-color: #39393a;
 
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4 {
+    color: #fefefe;
+}
 
 .navbar-brand {
     font-weight: 250;
     font-size: 36px;
 }
 
-a {
-    color: white;
-}
+
 
 .banner-text {
     font-family: Roboto;
@@ -17,21 +29,6 @@ a {
     font-size: 14px;
     letter-spacing: 0.06em;
     color: #FEFEFE;
-}
-
-body,
-html {
-    background-image: url(/assets/images/pic01.jpg);
-    background-color: #39393a;
-
-}
-
-p,
-h1,
-h2,
-h3,
-h4 {
-    color: #fefefe;
 }
 
 .title-text {
@@ -99,13 +96,12 @@ h4 {
     opacity: .8;
 }
 
-astronaut 
+.image-element {
+    padding-top: 90px;
+}
 
-/*.main-image {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    z-index: auto;
-
-    opacity: .14;
-} */
+@media screen and (max-width: 600px) {
+    .image-element {
+        display: none;
+    }
+}
