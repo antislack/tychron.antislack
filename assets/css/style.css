@@ -1,0 +1,111 @@
+
+
+.navbar-brand {
+    font-weight: 250;
+    font-size: 36px;
+}
+
+a {
+    color: white;
+}
+
+.banner-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    color: #FEFEFE;
+}
+
+body,
+html {
+    background-image: url(/assets/images/pic01.jpg);
+    background-color: #39393a;
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    color: #fefefe;
+}
+
+.title-text {
+    padding-top: 60px;
+    margin-top: 60px;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.title-sub {
+    padding-top: 40px;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.title-p {
+    padding-top: 16px;
+    padding-bottom: 60px;
+    font-weight: 300;
+    font-size: 14px;
+    max-width: 70%;
+}
+
+.logo-text {}
+
+.text-date {
+    position: absolute;
+
+    left: 15%;
+    top: 30%;
+
+    font-family: Poly;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 220px;
+    letter-spacing: 0.03em;
+
+    color: #FEFEFE;
+
+    mix-blend-mode: overlay;
+
+    opacity: .05;
+}
+
+.text-num {
+
+    position: absolute;
+
+    left: 15%;
+    top: 10%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 144px;
+    letter-spacing: 0.03em;
+
+    color: rgba(0, 0, 0, 0.1);
+
+    mix-blend-mode: overlay;
+
+    opacity: .8;
+}
+
+astronaut 
+
+/*.main-image {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: auto;
+
+    opacity: .14;
+} */
