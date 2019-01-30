@@ -1,4 +1,4 @@
-## Tychron Landing Page Preview
+## Landing Page Preview
 
 Use this repository to clone web files for landing page.
 
